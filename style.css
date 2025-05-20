@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+:root{
+    --primary-color: #1544df;
+    --secundary-color: #e21aa6;
+    --text-color: #0eb116;
+    --background-color: #e02020;
+    --button-hover: #e68e1c;
+    --font-body: "Poetsen One" serif;
+    --font-titulo: "Poetsen One" serif;
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+/* corpo da pagina */
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3{
+    margin-top: 25px;
+}
+p{
+    margin-top: 20px;
+}
+img{
+    max-width: 90%;
+}
+/* cabeçalho*/
+header{
+    background: var(--background-color);
+    color: #000000;
+    text-align: center;
+    padding: 22px;
+}
